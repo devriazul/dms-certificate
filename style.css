@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@font-face {
+    font-family: monotype;
+    src: url(/Monotype\ Corsiva.ttf);
+}
+
+.container {
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.innerCertificate {
+    position: absolute;
+    top: 46%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Pinyon Script', cursive;
+}
+
+h1 {
+    font-size: 55px!important;
+}
+
+.courseName {
+    position: absolute;
+    top: 57%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #F57E2A;
+}
+
+.courseName h3 {
+    font-size: 18px!important;
+}
+
+.dateText {
+    position: absolute;
+    top: 82%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-family: monotype;
+}
+
+h3 {
+    font-size: 25px!important;
+}
